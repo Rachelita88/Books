@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Books</string>
+    <string name="search">Buscar autor o libro</string>
+    <string name="submitted">enviado</string>
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Autor"
+            style="@style/AutorTextStyle" />
+
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_name_author"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:hint="nombre"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle"/>
+
+    </LinearLayout>
+
+    <!-- Measurement category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Título"
+            style="@style/AutorTextStyle"/>
+
+        <!-- Input fields -->
+        <EditText
+            android:id="@+id/edit_title_book"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:hint="nombre"
+            android:inputType="textCapWords"
+            style="@style/EditorFieldStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>
